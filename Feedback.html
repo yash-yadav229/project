@@ -1,0 +1,106 @@
+<html>
+<head>
+<title>Feedback Form</title>
+<style type="text/Css">
+body{background-image:url("background website.jpg"); background-size: 100% 100%}
+h1{color:Red; font-size:40px; font-family:Lucida Handwriting; text-align:center;}
+p.text{font-size:20px; font-weight:Bold;}
+h2{color:green; font-size:30px;}
+</style>
+
+<script language="Javascript">
+
+function select_rating()
+{
+ 
+if(document.form1.Rating(0).checked==true)
+{alert("Thanks For Letting Us know all over Weaknesses..w'll Look After Everything");}
+
+else if(document.form1.Rating(1).checked==true)
+{alert("Thanks For Letting US know That we Need to Improve.. w'll Try for the same");}
+
+else if(document.form1.Rating(2).checked==true)
+{alert("Thanks For Letting US know That we Aren't Good.. w'll To Solve Your Problems");}
+
+else if(document.form1.Rating(3).checked==true)
+{alert("Thanks For the Review.. Hope Your Gave Te best of Suggestions");}
+
+else if(document.form1.Rating(4).checked==true)
+{alert("Thanks for lettting us know that we are good");}
+
+else
+{alert("Thanks for letting us know that we are perfect");}
+
+}
+
+
+
+
+</script>
+</head>
+<body leftmargin=50><font color="White">
+<h1>Give Us A Feedback</h1><br><br>
+
+<h2>Be Honest..!! <br> Help Us improve </h2>  <br><br>
+
+
+<form name="form1" method="get"> <p class="text">
+Give as (Your Identity):- &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<Select Name="Your Identity?">
+	<option selected value="Anonymous">Anonymous
+	<option value= "Your Own Idenity">Your Own Idenity
+	<option value="Contacts Only">Contacts Only
+	<option value="Name ONly">Name Only
+</select>
+<br>
+<br>
+
+Your Name.. Respected Gamer &nbsp<input type="text" Name="Gamer's Name" size=30>
+<br>
+<br>
+
+E-Mail :- &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="text" Name="Mail Address" size=30>
+<br>
+<br>
+
+Contact No. :- &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<input type="text" Name="Contact" MaxLength=10 size=30>
+<br>
+<br>
+
+Hate Us Or Love Us?.. Mention It:- <br>
+<textarea Rows=7 Cols=100></textarea>
+<br>
+<br>
+
+What You like The Most?? <br>
+<textarea Rows=7 Cols=100></textarea>
+<br>
+<br>
+What You Hate THe Most?? <br>
+<textarea Rows=7 Cols=100> </textarea>
+<br>
+<br>
+
+Rate Us (On a Scale Of 1-10) :-&nbsp&nbsp&nbsp&nbsp
+
+<input type="Radio" Name="Rating" value="0">Worse (1-2)
+<input type="Radio" Name="Rating" value="1">Very Bad (3-4)
+<input type="Radio" Name="Rating" value="2">Bad (5-6)
+<input type="RAdio" Name="Rating" value="3">Good (7-8)
+<input type="Radio" Name="Rating" value="4">Very Good (9)
+<input type="Radio" Name="Rating" value="5">Excelent (10)
+<br>
+<br><br><br>
+<center>Do You Agree With The Terms & Conditions ?<br>
+<input type="Checkbox" Name="Conditions">Yes I Agree
+<br>
+<br>
+<input type="Submit" Value="Go Ahead" onclick="select_rating()">
+<input type="Reset" Value="Do It Again"></center>
+</form>
+</body>
+</html>

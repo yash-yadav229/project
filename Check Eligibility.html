@@ -1,0 +1,113 @@
+<html><head><style type="text/css">
+.btn{ padding: 1px 7px; border:15; background-color:#F7FED9; font-size:16px; cursor:pointer; box-shadow:2px 2px #999; border-radius:10px; border-color:double;}
+p.button{font-family:Lucida handwriting; font-size:small; }
+body{background-image:url("b6.jpg"); background-size: 100% 100%;}
+</style>
+
+<script language="Javascript">
+function check_age(a)
+{
+var x, b,c;
+x=document.myform.f1.value;
+
+if (x>=16)
+{b="Your Age is Eligible For Prime Membership"
+document.myform.txt1.value=b;}
+
+else
+{c="Your Age Is not Eligible For Prime Membership"
+document.myform.txt1.value=c;}
+
+}
+
+function check_experience(a)
+{
+var z,f,g;
+z=document.myform.f2.value;
+
+if (z>=4)
+{f="Your Experience is Eligible For Prime Membership"
+document.myform.txt2.value=f;}
+else
+{g="Your Experience  Dosen't Meet the Requirement"
+document.myform.txt2.value=g;}
+
+}
+
+
+function check_hours(a)
+{
+var y,d,e;
+y=document.myform.f3.value;
+
+if (y>=7)
+{d="No. of Hours You Played IS Not Eligible for prime Membership"
+document.myform.txt3.value=d;}
+
+else
+{e="No. of Hours You Played IS Eligible for prime Membership"
+document.myform.txt3.value=e;}
+
+}
+
+
+
+</script>
+
+
+
+
+
+</head>
+
+<body>
+ <H1><center><font face="Lucida handwriting" size =7 color="Red"><b>Check Your Eligibility</b></font></center></H1>
+
+<h2><font color="Green" size=6 ><i>The Eligibilty for Prime Membership is Based On certain criteria..(Try Applying In )</i></font><h2>
+<hr size=3 noshade>
+<Font color="Red"><i>Terms & Conditions</font></i>
+
+<UL size=5>
+
+	<LI>Experience Is Based On the No. of Months Spent In The Gaming Zone</LI>
+	<LI>Age Is Required according To The Parental Instructions</LI>
+	<LI>Hours Spent Per Week Is Essential by our Point Of View</LI>
+	<Li>You Must Be Eligible In aLL Of the Above</LI>
+</UL>
+<hr size="3" noshade>
+<h3><font color="Green" size=6 ><i>Enter The Following Links 
+To Check Eligibility In Various Criteria</i></font></h3>
+
+<Table>
+<TR>
+
+	<TD><Font color="Red"><i>Age Criteria </TD>
+	<TD><Font color="Red"><i>Experince Criteria &nbsp &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</TD>
+	<TD><Font color="Red"><i>Hours Per Week</TD>
+</TR>
+<TR><FORM name="myform">
+	<TD><Input Type="Text" name="f1" value="" ></TD>
+	<TD><Input Type="Text" name="f2" value=""></TD>
+	<TD><Input Type="Text" name="f3" value=""></TD>
+</TR>
+<TR><TD><br></TD></TR>
+<TR>
+	<TD><input type="button" value="Check AGe" onclick="check_age()"></TD>
+	<TD><input type="button" value="Check Experience" onclick="check_experience()"></TD>
+	<TD><input type="button" value="Check Hours" onclick="check_hours()"></TD>
+</TR><TR><TD><br></TD></TR>
+<TR rowspan=3><TD>
+<h2><font color="Green" size=6 >Check Your Results</font></h2>
+</TD></TR>
+<TR>
+	
+	<TD><Input Type="Text" name="txt1" value="" size=35></TD>
+	<TD><Input Type="Text" name="txt2" value="" size=35></TD>
+	<TD><Input Type="Text" name="txt3" value="" size=35></TD>
+	
+</TR>
+	
+</Table>
+</body>
+</Form>
+</html>

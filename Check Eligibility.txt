@@ -1,0 +1,17 @@
+<html>
+<script type="text/Javascript">
+
+
+var A;
+
+A=ParseInt(promt("Let Us Know Your Age",12));
+
+if (A>16)
+{document.write("Your Age is Eligible For Prime Membership");}
+
+else if (A<16)
+{document.write("Sorry Your Present Age Dosen't Meet the Requirements");}
+
+</script>
+</html>
+

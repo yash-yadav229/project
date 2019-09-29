@@ -1,0 +1,9 @@
+<html>
+<head>
+<title>Your Gaming Lounge</title>
+</head>
+<body>
+<h1><center><font face="Lucida handwriting" size =7 color="Red"><b>Why to Take Prime Membership</b></font></center></h1>
+<hr size=2 width=60>
+</body>
+</html>

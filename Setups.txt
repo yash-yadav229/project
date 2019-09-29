@@ -1,0 +1,13 @@
+<html>
+<head>
+<title>Your Gaming Lounge</title>
+</head>
+<body background="texture.jpg">
+<h1><center><font color="Red" size=7 face="Franklin Gothic Book">Setups Available</font></center></h1>
+<Table border=5 bgcolor="Red" >
+<TR Align="center">
+<TH>Setup No.</TH><TH>CPU</TH><TH>GPU</TH><TH>Processor</TH><TH>Clock Speed</TH>
+</TR>
+</table>
+</body>
+</html>

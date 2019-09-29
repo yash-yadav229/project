@@ -1,0 +1,10 @@
+<html>
+<head>
+<title>Your Gaming Lounge</title>
+</head>
+<body>
+<h1><center><font face="Lucida handwriting" size =7 color="Red"><b> Contact Us( ^_^ )</b></font></center></h1>
+
+<h2><font color="Green" size=6 ><i>Contact us For Any Queries<br></i></font><h2>
+</body>
+</html>
