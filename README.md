@@ -1,1 +1,1 @@
-# project
+A high school project . I was not allowed to use any sort of CSS code to make it good looking . The main aim was to build and implement javascript functions, PHP functions, MySQL DataBase and Queries. 
